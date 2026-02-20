@@ -1,0 +1,28 @@
+{
+  "name": "controlefinanceiro-api-rest",
+  "version": "1.0.0",
+  "description": "PI REST para controle financeiro pessoal, permitindo o cadastro de receitas e despesas, com classificação por categoria, data e valor. Deve construída em Node.js, com os dados armazenados em um banco MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielHiro/ControleFinanceiro-API-REST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GabrielHiro/ControleFinanceiro-API-REST/issues"
+  },
+  "homepage": "https://github.com/GabrielHiro/ControleFinanceiro-API-REST#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "mongoose": "^9.2.1"
+  }
+}
